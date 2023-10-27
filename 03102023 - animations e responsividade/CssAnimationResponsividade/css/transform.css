@@ -1,0 +1,43 @@
+*{
+    background-color: darkblue;
+    color: white;
+}
+
+body{
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.a {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+  }
+
+.a:hover {
+    transform: rotate(20deg);
+  }
+  
+.b {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+  }
+.b:hover {
+    transform: skewY(20deg) scale(1.5);
+  }
+  
+.c {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+  }
+
+.c:hover {
+    transform: scaleY(1.5) scaleX(1.5);
+  }

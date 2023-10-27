@@ -1,0 +1,18 @@
+1 - Crie uma variavel que mostre no terminal o valor "Ola mundo!".
+
+2 - Crie 3 variáveis com os nomes num1, num2 e resultado, atribua o valor 10 para o primeiro e o valor 15 para o segundo e armazene o resultado da soma dos dois, e mostre no console.
+
+3 - Crie uma variável nome que vai receber a string "Meu nome é (seu nome) e eu tenho = ", depois crie outra variável chamada idade que vai receber sua idade e mostre no console: Meu nome é (Seu nome) e eu tenho (sua idade).
+
+4 - Crie um algoritmo para calcular a média semestral dos alunos, crie uma variável chamada nota1, outra nota2 e media, mostre no console: Média do aluno = (media).
+
+5 - Crie um algoritmo que irá controlar o estoque de uma padaria, uma variável pão recebera o valor de 100 unidades e duas outras variáveis, venda1 e venda2, onde serão vendidos 20 pães na primeira e 30 na segunda, crie uma quarta variável chamada estoque que irá receber a qtde. de pães e subtrair as vendas, mostre no console o estoque restante do estoque de pães.
+
+6 - Crie um algoritmo para verificar os tipos das variáveis num1 = 12345, nome = "Seu Nome", valor = 8.5, telefone = "999899898" e verdadeiro = true.
+
+7 - Escreva um algoritmo que crie uma variável chamada num, atribua um valor a ela e mostre no console se o valor é positivo ou negativo. 
+
+8 - Escreva um algoritmo que contenha uma variável salario do funcionário, atribua o valor a ela e verifique se o salário é maior ou menor que o salário mínimo atual (1.320).
+
+
+

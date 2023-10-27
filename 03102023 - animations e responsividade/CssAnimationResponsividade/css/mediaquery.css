@@ -1,0 +1,27 @@
+/* Estilos para telas menores que 480px */
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: red;
+    }
+  }
+  
+  /* Estilos para telas entre 480px e 768px */
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+  }
+  
+  /* Estilos para telas entre 768px e 1024px */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+    /* Estilos para telas maiores que 1024px */
+    @media only screen and (min-width: 1024px) {
+        body {
+          background-color: yellow;
+        }
+    }

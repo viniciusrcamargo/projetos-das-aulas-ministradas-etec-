@@ -1,0 +1,42 @@
+@media screen and (max-width:768px) {
+    .cartao{
+        width: 100%;
+    }
+    .planos__cartoes{
+        flex-direction: column;
+    } 
+}
+@media screen and (min-width: 768px){
+    .chamada__texto{
+        max-width: 600px;
+    }
+
+    .institucional__contato-email{
+        display: inline-block;
+    }
+
+    .institucional__video{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cabecalho{
+        flex-direction: row;
+        justify-content: space-between;
+
+        border: none;
+    }
+
+    .chamada{
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+        padding-top: 8.25rem;
+    }
+
+    .chamada__titulo{
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+}
