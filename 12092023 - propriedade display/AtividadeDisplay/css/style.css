@@ -1,0 +1,30 @@
+  /* Estilos do cabeçalho */
+  header {
+    background-color: lightblue; /* cor de fundo azul claro */
+    margin: 10px; /* margem de 10 pixels em todos os lados */
+    padding: 20px; /* preenchimento de 20 pixels em todos os lados */
+    text-align: center; /* alinhamento do texto no centro */
+  }
+
+  /* Estilos do conteúdo */
+  .content {
+    background-color: white; /* cor de fundo branca */
+    margin: 10px; /* margem de 10 pixels em todos os lados */
+    padding: 20px; /* preenchimento de 20 pixels em todos os lados */
+  }
+
+  /* Estilos dos itens do conteúdo */
+  .item {
+    background-color: lightgreen; /* cor de fundo verde claro */
+    margin: 5px; /* margem de 5 pixels em todos os lados */
+    padding: 10px; /* preenchimento de 10 pixels em todos os lados */
+    display: inline-block; /* comportamento de bloco na linha */
+  }
+
+  /* Estilos do rodapé */
+  footer {
+    background-color: lightgray; /* cor de fundo cinza claro */
+    margin: 10px; /* margem de 10 pixels em todos os lados */
+    padding: 20px; /* preenchimento de 20 pixels em todos os lados */
+    text-align: center; /* alinhamento do texto no centro */
+  }

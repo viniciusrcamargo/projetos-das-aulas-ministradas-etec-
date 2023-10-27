@@ -1,0 +1,139 @@
+body{
+    background-color: #F2F5F7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.cabecalhoPrincipal{
+    background-color: #FFF;
+    padding: 20px 0;
+}
+
+.cabecalhoPrincipal-titulo{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cabecalhoPrincipal-titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalhoPrincipal-nav-link{
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #9799A6;
+    background-color: #FFF;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    border: 1px solid #9799A6;
+    border-radius: 6px;
+    width: auto;
+    margin: 0 0 0 10px;
+}
+
+.cabecalhoPrincipal-nav-link:hover{
+    color: #FFF;
+    background-color: #9799A6;
+}
+
+.cabecalhoPrincipal-titulo{
+    margin: 0;
+}
+
+.cabecalhoPrincipal-nav{
+    width: auto;
+}
+
+.conteudoPrincipal{
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.titulo-curso{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.curso{
+    border: 1px solid #434242;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.curso-link{
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #3d025689;
+}
+
+.curso:hover{
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.videoSobre{
+    background-color: #5E9EDC;
+    padding: 25px 0;
+}
+
+.videoSobre-video{
+    max-width: 100%;
+    margin-right: 30px;
+}
+
+.videoSobre .container{
+    color: #FFF;
+}
+
+.videoSobre-sobre-title{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #dc25b2;
+    border-left: 4px solid #AD52BF;
+}
+
+.videoSobre-sobre{
+    font-size: 1.3em;
+    line-height: 2;
+}
+
+.videoSobre-button{
+    border-radius: 8px;
+    background-color: #ec6e5a;
+    display: block;
+    color: #FFF;
+    border: none;
+    height: 50px;
+    font-size: .8em;
+    outline: none;
+}
+
+.videoSobre-button:hover{
+    background-color: #551646;
+    cursor: pointer;
+    transform: perspective(1px)scale(1.1);
+}
+
+
