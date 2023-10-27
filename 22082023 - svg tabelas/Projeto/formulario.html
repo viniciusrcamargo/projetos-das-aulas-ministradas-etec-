@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/css/estilo.css">
+  <title>Cadastro de clientes</title>
+</head>
+<body>
+  <h1>Cadastro de clientes</h1>
+
+  <form action="cadastro.php" method="post">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+
+      <label for="nome" id="label1">Nome:</label>
+      <input type="email" id="nome" class="nome" required><br>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone"><br>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Dados profissionais</legend>
+
+      <label for="empresa">Empresa:</label>
+      <input type="text" id="empresa" name="empresa"><br>
+
+      <label for="cargo">Cargo:</label>
+      <input type="text" id="cargo" name="cargo"><br>
+
+      <label for="salario">Salário:</label>
+      <input type="number" id="salario" name="salario"><br>
+    </fieldset>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+</body>
+</html>
+
+
