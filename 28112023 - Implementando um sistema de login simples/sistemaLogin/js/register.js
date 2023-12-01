@@ -1,0 +1,16 @@
+const msgAlerta = document.querySelector(".msgAlerta");
+const senha = document.getElementById("senha");
+const confirmaSenha = document.getElementById("confimaSenha");
+
+
+function registrar(){
+    if(senha.value !== confirmaSenha.value){
+          console.log('As senhas não conicidem!');
+          msgAlerta.innerHTML = '<h3 class="alerta">As senhas não conicidem!</h3>';
+          msgAlerta.removeAttribute('hidden')
+          setInterval(() => {
+            msgAlerta.setAttribute('hidden', true); 
+          },4000)  
+          
+      } 
+ }
