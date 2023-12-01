@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #345be9, #7ea8f1);
+}
+
+.container{
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPrincipal{
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.formulario{
+    margin-top: 20px;
+}
+
+img{
+    width: 342px;
+    height: 342px;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #345be9;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #345be9;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+a{
+    display: inline-block;
+    color: #fff;
+    margin-left: 55%;
+    margin-top: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #345be9;
+}
+
+span{
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.msgAlerta{
+    display: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: auto;
+}

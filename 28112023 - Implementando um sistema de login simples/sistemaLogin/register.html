@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <title>Sistema de Login</title>
+</head>
+<body>
+    <div class="msgAlerta" hidden></div>
+    <h1 class="tituloPrincipal">Cafeteria da Etec</h1>
+    <main class="container">
+        <img src="./img/produtos-cafe-especial.png" alt="xicara de café">
+        <form id="loginForm" class="formulario">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" ><br><br>
+
+            <label for="confirma-senha">Confirme a senha:</label><br>
+            <input type="password" id="confimaSenha" name="confirmaSenha"><br><br>
+            <span id="msg" hidden></span>
+            
+            <button type="button"  onclick="registrar()" class="btnRegistrar">Cadastrar</button>
+        </form>
+    </main>
+    <script src="./js/register.js"></script>
+</body>
+</html>
